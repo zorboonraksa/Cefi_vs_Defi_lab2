@@ -83,7 +83,7 @@ describe("Question 2", function () {
 
     const profit = afterLiquidationBalance.sub(beforeLiquidationBalance);
     console.log(
-      `Profit from using ${usdtValue} USDT for the liquidation is`,
+      `Profit from using ${usdtValue} USDT is`,
       utils.formatEther(profit),
       "ETH"
     );
@@ -171,7 +171,7 @@ describe("Question 2", function () {
 
     const profit = afterLiquidationBalance.sub(beforeLiquidationBalance);
     console.log(
-      `Profit from using ${usdtValue} USDT for the liquidation is`,
+      `Profit from using ${usdtValue} USDT is`,
       utils.formatEther(profit),
       "ETH"
     );
